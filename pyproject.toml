@@ -1,0 +1,12 @@
+[project]
+name = "qc-streamlit"
+version = "0.1.0"
+description = "Collection of streamlit applications for better understanding of quantum chemistry"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.9",
+    "py3dmol>=2.5.5",
+    "pyscf>=2.13.1",
+    "streamlit>=1.58.0",
+]
